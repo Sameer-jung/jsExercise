@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- 
+    Create three variables: num1, num2, and operator.
+    Use a switch statement to perform addition, subtraction, multiplication, or division based on the value of operator (+, -, *, /).
+    Print the result of the operation.
+ -->
+
+ <script>
+    let num1;
+    let num2;
+    let operator;
+
+    num1 = 10;
+    num2 = 20;
+    operator = "+";
+
+    switch(operator){
+        case("+") : document.write( num1 + num2)
+        break;
+
+        case("-") : document.write( num1 - num2)
+        break;
+
+        case("*") : document.write( num1 * num2)
+        break;
+
+        case("/") : document.write(num1 / num2)
+        break;
+
+        default : document.write("Invalid operator");
+
+    }
+
+ </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 
+        Create a variable month and assign it a numerical value between 1 and 12.
+        Use a switch statement to print the season corresponding to the month (e.g., 12, 1, 2 for Winter, 3, 4, 5 for Spring, etc.).
+     -->
+     
+    <script>
+
+        let month;
+
+        month = 12;
+
+        switch(true){
+            case( month >= 1 && month <= 2 || month === 12) : document.write("This is Winter")
+            break;
+
+            case( month >= 3 && month <= 5 ) : document.write("This is Spring")
+            break;
+
+            case ( month >= 6 && month <= 8) : document.write("This is Summer")
+            break;
+
+            case ( month >= 9 && month <= 11) : document.write("This is autumn")
+            break;
+
+            default : document.write("Invalid month");
+        }
+
+    </script>
+
+</body>
+</html>
